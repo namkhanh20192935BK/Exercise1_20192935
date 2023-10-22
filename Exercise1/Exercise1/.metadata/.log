@@ -1,0 +1,309 @@
+!SESSION 2023-10-23 00:22:07.977 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2023-10-23 00:31:50.308
+!MESSAGE Debug session 'test3 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2023-10-23 00:31:54.382
+!MESSAGE Debug session 'test3 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2023-10-23 00:32:36.775
+!MESSAGE Debug session 'test3 Debug' already started. Terminate the first one before restarting.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2023-10-23 00:32:54.963
+!MESSAGE Debug session 'test3 Debug (1)' already started. Terminate the first one before restarting.
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 0 2023-10-23 00:33:10.968
+!MESSAGE Debug session 'test3 Debug (1)' already started. Terminate the first one before restarting.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:33:38.407
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:33:38.407
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-23 00:33:39.294
+!MESSAGE Indexed 'test3' (28 sources, 191 headers) in 2.24 sec: 10,314 declarations; 21,127 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:33:41.425
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:33:41.425
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:33:57.095
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:33:57.095
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:34:53.675
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:34:53.675
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:36:04.025
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:36:04.025
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:36:31.546
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.checkBinaryDetails(LaunchConfigurationDelegate.java:500)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:228)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:179)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:155)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:36:31.548
+!MESSAGE /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.checkBinaryDetails(LaunchConfigurationDelegate.java:500)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:228)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:179)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:155)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:37:08.612
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.checkBinaryDetails(LaunchConfigurationDelegate.java:500)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:228)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:179)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:155)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 00:37:08.612
+!MESSAGE /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.checkBinaryDetails(LaunchConfigurationDelegate.java:500)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:228)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:179)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:155)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-10-23 07:55:52.112 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-10-23 07:59:42.335
+!MESSAGE An internal error occurred during: "Generating Library Hover help for installed Devhelp documentation".
+!STACK 0
+java.io.UncheckedIOException: java.nio.file.NoSuchFileException: /usr/share/doc/linux-modules-6.2.0-33-generic
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:87)
+	at java.base/java.nio.file.FileTreeIterator.hasNext(FileTreeIterator.java:103)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:132)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.linuxtools.internal.cdt.libhover.devhelp.ParseDevHelp.findAllDevhelpBooks(ParseDevHelp.java:222)
+	at org.eclipse.linuxtools.internal.cdt.libhover.devhelp.DevHelpGenerateJob.run(DevHelpGenerateJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: /usr/share/doc/linux-modules-6.2.0-33-generic
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at java.base/java.nio.file.FileTreeWalker.getAttributes(FileTreeWalker.java:220)
+	at java.base/java.nio.file.FileTreeWalker.visit(FileTreeWalker.java:277)
+	at java.base/java.nio.file.FileTreeWalker.next(FileTreeWalker.java:374)
+	at java.base/java.nio.file.FileTreeIterator.fetchNextIfNeeded(FileTreeIterator.java:83)
+	... 13 more
+!SESSION 2023-10-23 08:06:54.047 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -data /home/khanhnguyen/Exercise1 -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:07:13.281
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.checkBinaryDetails(LaunchConfigurationDelegate.java:500)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:228)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:179)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:155)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:07:13.282
+!MESSAGE /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.checkBinaryDetails(LaunchConfigurationDelegate.java:500)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:228)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:179)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:155)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:08:08.875
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.checkBinaryDetails(LaunchConfigurationDelegate.java:500)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:228)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:179)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:155)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:08:08.876
+!MESSAGE /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.checkBinaryDetails(LaunchConfigurationDelegate.java:500)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:228)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:179)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:155)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:11:28.397
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:11:28.397
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:11:51.945
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:11:51.945
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:13:57.242
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:13:57.242
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:14:13.164
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:14:13.164
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:14:48.784
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:14:48.784
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:16:08.601
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:16:08.601
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:23:07.944
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:23:07.944
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:25:03.270
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:25:03.270
+!MESSAGE 
+
+!ENTRY org.eclipse.embedcdt.packs.core 4 1 2023-10-23 08:25:33.465
+!MESSAGE /home/khanhnguyen/.local/xPacks/@xpack-dev-tools/qemu-arm/7.2.5-1.1/.content/bin/qemu-system-gnuarmeclipse --verbose --board STM32F4-Discovery --mcu STM32F407VG --gdb tcp::1234 -d unimp,guest_errors --semihosting-config enable=on,target=native --semihosting-cmdline test3
+
+!ENTRY org.eclipse.embedcdt.packs.core 4 1 2023-10-23 08:25:35.902
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:29:19.805
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.checkBinaryDetails(LaunchConfigurationDelegate.java:500)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:228)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:179)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:155)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2023-10-23 08:29:19.805
+!MESSAGE /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+!STACK 0
+java.io.FileNotFoundException: /home/khanhnguyen/Exercise1/test3/Debug/test3.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.checkBinaryDetails(LaunchConfigurationDelegate.java:500)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugSession(LaunchConfigurationDelegate.java:228)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launchDebugger(LaunchConfigurationDelegate.java:179)
+	at org.eclipse.embedcdt.debug.gdbjtag.qemu.core.dsf.LaunchConfigurationDelegate.launch(LaunchConfigurationDelegate.java:155)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.embedcdt.packs.core 4 1 2023-10-23 08:31:10.593
+!MESSAGE /home/khanhnguyen/.local/xPacks/@xpack-dev-tools/qemu-arm/7.2.5-1.1/.content/bin/qemu-system-gnuarmeclipse --verbose --board STM32F4-Discovery --mcu STM32F407VG --gdb tcp::1234 -d unimp,guest_errors --semihosting-config enable=on,target=native --semihosting-cmdline test3
+
+!ENTRY org.eclipse.embedcdt.packs.core 4 1 2023-10-23 08:31:11.752
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.packs.core 4 1 2023-10-23 08:33:51.075
+!MESSAGE /home/khanhnguyen/.local/xPacks/@xpack-dev-tools/qemu-arm/7.2.5-1.1/.content/bin/qemu-system-gnuarmeclipse --verbose --board STM32F4-Discovery --mcu STM32F407VG --gdb tcp::1234 -d unimp,guest_errors --semihosting-config enable=on,target=native --semihosting-cmdline test3
+
+!ENTRY org.eclipse.embedcdt.packs.core 4 1 2023-10-23 08:33:52.230
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx

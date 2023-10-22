@@ -1,0 +1,26 @@
+08:33:47 **** Incremental Build of configuration Debug for project test3 ****
+make all 
+Building file: ../src/main.c
+Invoking: GNU Arm Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -flto -fno-move-loop-invariants -Werror -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_ITM -DSTM32F407xx -DUSE_HAL_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f4-hal" -std=gnu11 -Wmissing-prototypes -Wstrict-prototypes -Wbad-function-cast -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: test3.elf
+Invoking: GNU Arm Cross C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=soft -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -flto -fno-move-loop-invariants -Werror -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal -g3 -T mem.ld -T libs.ld -T sections.ld -nostartfiles -Xlinker --gc-sections -L"../ldscripts" -Wl,-Map,"test3.map" --specs=nano.specs -o "test3.elf" ./system/src/stm32f4-hal/stm32f4xx_hal.o ./system/src/stm32f4-hal/stm32f4xx_hal_cortex.o ./system/src/stm32f4-hal/stm32f4xx_hal_flash.o ./system/src/stm32f4-hal/stm32f4xx_hal_flash_ex.o ./system/src/stm32f4-hal/stm32f4xx_hal_flash_ramfunc.o ./system/src/stm32f4-hal/stm32f4xx_hal_gpio.o ./system/src/stm32f4-hal/stm32f4xx_hal_iwdg.o ./system/src/stm32f4-hal/stm32f4xx_hal_pwr.o ./system/src/stm32f4-hal/stm32f4xx_hal_rcc.o  ./system/src/newlib/assert.o ./system/src/newlib/cxx.o ./system/src/newlib/exit.o ./system/src/newlib/sbrk.o ./system/src/newlib/startup.o ./system/src/newlib/syscalls.o  ./system/src/diag/trace-impl.o ./system/src/diag/trace.o  ./system/src/cortexm/exception-handlers.o ./system/src/cortexm/initialize-hardware.o ./system/src/cortexm/reset-hardware.o  ./system/src/cmsis/system_stm32f4xx.o ./system/src/cmsis/vectors_stm32f407xx.o  ./src/initialize-hardware.o ./src/led.o ./src/main.o ./src/stm32f4xx_hal_msp.o ./src/timer.o ./src/write.o   
+/home/khanhnguyen/.local/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/12.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: test3.elf has a LOAD segment with RWX permissions
+Finished building target: test3.elf
+ 
+Invoking: GNU Arm Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "test3.elf"  "test3.hex"
+Finished building: test3.hex
+ 
+Invoking: GNU Arm Cross Print Size
+arm-none-eabi-size --format=berkeley "test3.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9600	    144	    424	  10168	   27b8	test3.elf
+Finished building: test3.siz
+ 
+
+08:33:49 Build Finished. 0 errors, 1 warnings. (took 2s.650ms)
+
